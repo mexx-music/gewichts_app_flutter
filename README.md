@@ -1,16 +1,22 @@
-# gewichts_app
+# 🚛 Gewichts App – Flutter
 
-A new Flutter project.
+Die **Gewichts App** berechnet das reale Gesamtgewicht und die Achsgewichte von LKWs anhand der Volvo-Druckwerte.  
+Die App entstand aus einer Streamlit-Version und ist jetzt als Flutter-App für Android/iOS verfügbar.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
+- Eingabe aktueller Volvo-Druckwerte (Zugmaschine & Auflieger).
+- Automatische Umrechnung in reale Achs- und Gesamtgewichte.
+- Warnungen bei Überschreitung der gesetzlichen Grenzwerte.
+- Kalibrierung über ⚙️ erreichbar (im Alltag versteckt).
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Nutzung
+Projekt klonen und starten:
+```bash
+git clone https://github.com/mexx-music/gewichts_app_flutter.git
+cd gewichts_app_flutter
+flutter pub get
+flutter run
